@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.READ_APN_SETTINGS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Transporters"
+        tools:targetApi="31">
+        <activity
+            android:name=".VisitProfile"
+            android:exported="false"
+            android:label="@string/title_activity_visit_profile"
+            android:theme="@style/Theme.Transporters" />
+
+        <activity
+            android:name=".SignUp"
+            android:exported="false"
+            android:label="Sign up"
+            android:theme="@style/Theme.Transporters" />
+        <activity
+            android:name=".pages.client.Map"
+            android:exported="false"
+            android:label="@string/title_activity_map"
+            android:theme="@style/Theme.Transporters" />
+        <activity
+            android:name=".pages.Conversation"
+            android:exported="false"
+            android:label="@string/title_activity_conversation"
+            android:theme="@style/Theme.Transporters" />
+        <activity
+            android:name=".pages.driver.DriverDemandDetails"
+            android:exported="false"
+            android:label="Demand Details"
+            android:parentActivityName=".pages.driver.DriverPage"
+            android:theme="@style/Theme.Transporters" />
+        <activity
+            android:name=".pages.client.NewDemand"
+            android:exported="false"
+            android:label="New Demand"
+            android:theme="@style/Theme.Transporters" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Transporters">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".services.DLocationListener" />
+
+        <activity android:name=".pages.driver.DriverPage" />
+        <activity android:name=".pages.client.ClientPage" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="GoogleApiHere" />
+    </application>
+
+</manifest>

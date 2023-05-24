@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "713682103287",
+    "project_id": "transporters-e5f96",
+    "storage_bucket": "transporters-e5f96.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:713682103287:android:483a894e712ce733d39cf2",
+        "android_client_info": {
+          "package_name": "com.bex.transporters"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "713682103287-bvihbelqd3n7d9579qka1r35dvk0m9rs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bex.transporters",
+            "certificate_hash": "85e313be0051e1940f6c1be23853f5660b22d155"
+          }
+        },
+        {
+          "client_id": "713682103287-lo229u6031e95p5hi5i3ap95396d2tt9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpyD6B6n6XuUoQm04rwqFGe0MwgNOvSQY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "713682103287-lo229u6031e95p5hi5i3ap95396d2tt9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

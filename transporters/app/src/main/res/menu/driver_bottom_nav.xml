@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<item
+    android:id="@+id/demandsdriver"
+    android:title="Demands"
+    android:icon="@drawable/demands"/>
+<item
+    android:id="@+id/offersdriver"
+    android:title="Offers"
+    android:icon="@drawable/offer"/>
+<item
+    android:id="@+id/transportsdriver"
+    android:title="Transports"
+    android:icon="@drawable/car"/>
+<item
+    android:id="@+id/profiledriver"
+    android:title="Profile"
+    android:icon="@drawable/profile"/>
+</menu>

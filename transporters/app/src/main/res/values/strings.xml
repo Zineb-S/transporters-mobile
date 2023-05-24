@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Transporters</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_sign_up">SignUp</string>
+    <string name="title_activity_new_demand">NewDemand</string>
+
+    <string-array name="user_type">
+        <item>client</item>
+        <item>driver</item>
+    </string-array>
+    <string-array name="driver_status">
+        <item>open to work</item>
+        <item>currently on a mission !</item>
+        <item>on a break</item>
+        <item>unavailable</item>
+    </string-array>
+    <string-array name="cargo_type">
+        <item>General Food</item>
+        <item>Bulk Transport</item>
+        <item>Car Transport</item>
+        <item>Refrigerated Transport</item>
+        <item>Food Liquids</item>
+        <item>Live Animals</item>
+        <item>Exceptional Transport</item>
+        <item>Dangerous Food</item>
+    </string-array>
+    <string-array name="truck_type">
+        <item>Any</item>
+        <item>Small</item>
+        <item>Light</item>
+        <item>Medium</item>
+        <item>Heavy</item>
+    </string-array>
+    <string-array name="payment_type">
+        <item>Fixed Price</item>
+        <item>Request Quote</item>
+
+
+    </string-array>
+    <string name="title_activity_driver_demand_details">DriverDemandDetails</string>
+    <string name="title_activity_conversation">Conversation</string>
+    <string name="title_activity_map">Map</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_visit_profile">VisitProfile</string>
+</resources>
